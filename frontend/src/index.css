@@ -15,12 +15,21 @@ main {
   flex: 1;
 }
 
+.btn-primary {
+  background-color: #f0c040;
+  color: #000000;
+}
+
 .products {
   /* flex puts items next to eachother */
   display: flex;
   /* if no space in a row, new items pushed down to new line */
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.rating span {
+  color: #ffc000;
 }
 
 .product {
